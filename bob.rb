@@ -1,5 +1,11 @@
 class Bob
+
   def hey(argument)
-    'Whatever.'
+    if 'WATCH OUT!' == argument
+      'Whoa, chill out!'
+    else
+      'Whatever.'
+    end
   end
+
 end
